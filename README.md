@@ -1,2 +1,2 @@
 # Web-Interaction-Process-Analysis----In-progress
-The goal of this project is to analyze user sessions while focusing on how sessions differ in terms of sequence,duration ... 
+The goal of this project is to analyze user sessions as end-to-end processes composed of individual interaction steps, using event-level data from Google Analytics. The analysis focuses on understanding how user sessions differ in terms of sequence, duration, and complexity, and on identifying patterns that may indicate inefficiencies or drop-offs within the process.
