@@ -44,5 +44,7 @@ A histogram analysis revealed that most sessions fall within the 0–2 minute ra
 ## 6. Next steps
 
 ## 7. Tools
-
+- SQL (Google BigQuery)
+- Excel 
+- GitHub 
 
