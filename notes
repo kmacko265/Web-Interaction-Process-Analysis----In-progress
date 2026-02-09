@@ -2,6 +2,8 @@ fullVisitorId identifikuje jedného používateľa (anonymne).
 visitId identifikuje jednu konkrétnu session (návštevu) používateľa.
 fullVisitorId sa opakuje, keď sa ten istý user vráti viackrát
 visitId sa opakuje len v rámci hitov tej istej session
+Jedna session = jedna návšteva používateľa.
+Session je jedna konkrétna návšteva používateľa. Jeden používateľ môže mať viac session
 
 hitNumber je poradie kroku v rámci jednej session.
 
@@ -15,7 +17,21 @@ hit_time NIE JE čas strávený na kroku.
 Je to čas, KEDY SA KROK STAL, meraný od začiatku session. 
 Tzn. hit 2: time = 16 622
 hit 3: time = 18 101
-
 → medzi krokmi uplynulo 1 479ms
+hits.time = čas od začiatku session
+rozdiel medzi dvoma hits.time aproximuje čas medzi krokmi
 
 ZHRNUTIE - Jeden user (fullVisitorId) môže mať viac návštev (visitId) a každá návšteva je proces zložený z krokov (hitNumber) zoradených v čase (hit_time).
+
+
+
+CTE = dočasná tabuľka s menom.
+CTE nepoužívam preto, že by bolo „pokročilé“, ale preto, že SQL musí najprv vytvoriť KPI a až potom ho vie analyzovať.
+
+WITH sessions ( tudududu ... 
+)
+Hlavná query
+
+
+Veľa hitov môže znamenať buď silný záujem, alebo silný problém. Bez kontextu to nevieme.
+Bucket = skupina hodnôt v určitom rozsahu
