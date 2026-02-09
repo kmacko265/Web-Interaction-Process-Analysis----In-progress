@@ -18,3 +18,13 @@ SELECT
   MAX(hits) AS max_hits,
   ROUND(AVG(hits), 2) AS avg_hits
 FROM sessions;
+
+-- Session-level output used for Excel bucket analysis
+
+SELECT
+  fullVisitorId,
+  visitId,
+  COUNT(*) AS hits
+FROM `bigquery-public-data.google_analytics_sample.ga_sessions_20160801`,
+UNNEST(hits)
+GROUP BY fullVisitorId, visitId;
