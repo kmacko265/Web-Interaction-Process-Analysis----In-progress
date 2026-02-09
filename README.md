@@ -16,6 +16,9 @@ Hits per session was used as a behavioral KPI to measure user engagement depth. 
 Session distribution by hits per session was analyzed using Excel pivot tables, grouping sessions into 1–2, 3–5, 6–10, and 10+ hit buckets.
 
 ### 4.2 KPI #2 – Session Duration / Time Between Hits
+Average session duration was approximately 2.8 minutes; however, the distribution was highly skewed, with extreme outliers exceeding two hours. This indicates that long session duration alone does not necessarily reflect good user experience and may be driven by inactivity or technical factors.
+
+Session duration alone is a weak indicator of user experience, as very long sessions may reflect inactivity rather than engagement.
 ### 4.3 KPI #3 – Entry vs Exit Steps
 
 ## 5. Key Findings (So Far)
