@@ -27,6 +27,8 @@ ZHRNUTIE - Jeden user (fullVisitorId) môže mať viac návštev (visitId) a ka�
 
 CTE = dočasná tabuľka s menom.
 CTE nepoužívam preto, že by bolo „pokročilé“, ale preto, že SQL musí najprv vytvoriť KPI a až potom ho vie analyzovať.
+Všetko, čo chcem použiť neskôr, musím si dať do CTE.
+Why did you I a CTE here? - Session-level KPIs must be computed before they can be summarized across sessions.
 
 WITH sessions ( tudududu ... 
 )
@@ -35,3 +37,6 @@ Hlavná query
 
 Veľa hitov môže znamenať buď silný záujem, alebo silný problém. Bez kontextu to nevieme.
 Bucket = skupina hodnôt v určitom rozsahu
+
+MAX(hit.time) - MIN(hit.time) - session duration.
+
