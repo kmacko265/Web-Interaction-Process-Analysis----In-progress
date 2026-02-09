@@ -14,7 +14,8 @@ The analysis focuses on the following business questions:
 
 
 ## 3. Dataset
-
+This project uses the Google Analytics Sample Dataset available in BigQuery.  
+The analysis is based on event-level session data from the `ga_sessions_20160801` table, which contains nested hit-level interaction data for website sessions.
 ## 4. Methodology
 
 ### 4.1 KPI #1 – Hits per Session (Session Complexity)
