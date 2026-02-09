@@ -25,7 +25,7 @@ Initial summary statistics showed an average session duration of approximately 2
 
 A histogram analysis revealed that most sessions fall within the 0–2 minute range, confirming that short sessions dominate overall user behavior. This demonstrates that average session duration alone is a misleading indicator of engagement and should be interpreted in combination with other behavioral KPIs.
 
-![Session Duration](visuals/session_duration_histogram.png)
+![Session Duration](Visuals/session_duration_histogram.png)
 
 
 
