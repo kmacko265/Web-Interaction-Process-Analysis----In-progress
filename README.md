@@ -2,8 +2,6 @@
 ## 1. Project overview
 The analysis focuses on understanding how user sessions differ in terms of interaction complexity and depth, and on identifying patterns that may indicate inefficiencies or early drop-offs within the process.
 
-## TL;DR – Final Insights
-
 ## 2. Business questions
 The analysis focuses on the following business questions:
 
@@ -12,6 +10,8 @@ The analysis focuses on the following business questions:
 - How long do user sessions last, and does session duration reliably indicate meaningful engagement?
 - Do average metrics accurately represent user behavior, or do underlying distributions provide more insight?
 
+## TL;DR – Final Insights
+👉 [Jump to Final Insights](#final-insights)
 
 ## 3. Dataset
 This project uses the Google Analytics Sample Dataset available in BigQuery.  
