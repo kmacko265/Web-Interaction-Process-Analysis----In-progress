@@ -5,6 +5,13 @@ The analysis focuses on understanding how user sessions differ in terms of inter
 ## TL;DR – Final Insights
 
 ## 2. Business questions
+The analysis focuses on the following business questions:
+
+- How do users behave during a session, and what do session length and number of interactions tell us about engagement or potential problems on the website?
+- How many interactions (hits) do users typically perform within a session, and how are sessions distributed across short and long interaction depths?
+- How long do user sessions last, and does session duration reliably indicate meaningful engagement?
+- Do average metrics accurately represent user behavior, or do underlying distributions provide more insight?
+
 
 ## 3. Dataset
 
