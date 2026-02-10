@@ -38,7 +38,7 @@ A histogram analysis revealed that most sessions fall within the 0–2 minute ra
 
 
 ### 4.3 KPI #3 – Entry vs Exit Steps
-
+Exploratory analysis of session interaction depth versus session duration revealed a high variance in behavior. Sessions with more interactions did not consistently result in longer durations, indicating that session duration alone is not a reliable proxy for engagement.
 ## 5. Key Findings (So Far)
 
 ## 6. Next steps
