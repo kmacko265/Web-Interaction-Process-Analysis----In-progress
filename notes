@@ -39,4 +39,7 @@ Veľa hitov môže znamenať buď silný záujem, alebo silný problém. Bez kon
 Bucket = skupina hodnôt v určitom rozsahu
 
 MAX(hit.time) - MIN(hit.time) - session duration.
+Granularita výsledku sa mení v momente, keď zmeníš GROUP BY. Granularita = hit-level alebo session-level .Hit level bez, session lvl s GROUP BY.
+ZMENA GROUP BY MENÍ REALITU.
+
 
